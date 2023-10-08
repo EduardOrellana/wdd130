@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Indie+Flower&display=swap');
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #1b4965   ;
+  --secondary-color: #5fa8d3 ;
+  --accent1-color: #62b6cb;
+  --accent2-color: #bee9e8;
+  --accent3-color: #cae9ff;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Croissant One";
+  --paragraph-font: Indie Flower, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #1b4965;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #1b4965; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #1b4965; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #bee9e8  ;
+  --nav-link-color: #bee9e8;
+  --nav-background-color: #1b4965;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: #396E94;
+}
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #1b4965;
+}
+
+body {
+    background-color: var(--accent3-color);
+}
+
+header {
+    background-color: var(--accent2-color);
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:var(--accent1-color);
+    color:var(--primary-color);
+}
+
+.join, .book{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.msg, footer {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+.home-title, h4 {
+    color: var(--primary-color);
+}
+
+
+.msg h2 {
+    color: #1b4965;
+}
+
+footer, footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+h1 {
+    text-decoration: underline;
+}
