@@ -31,6 +31,7 @@
 
 nav a {
     text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -45,17 +46,25 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
-    background-color: #1b4965;
+    background-color: #dac3a4;
 }
 
 body {
-    background-color: var(--accent3-color);
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: var(--accent2-color);
+    background-color: #596154;
 }
 
 nav a {
@@ -70,9 +79,13 @@ nav a:hover {
 }
 
 .join, .book{
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
+    background-color: #d9c2a3;
+    color:black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -80,22 +93,45 @@ nav a:hover {
     color: white;
 }
 
-.msg, footer {
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg h2, .home-title {
+    font-family: var(--paragraph-font), sans-serif;
+}
+
+.msg p {
+    font-family: sans-serif;
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+    color: white;
+}
+
+footer {
+    background-color: #596154;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title, h4 {
     color: var(--primary-color);
 }
 
-
 .msg h2 {
-    color: #1b4965;
+    color: white;
 }
 
 footer, footer a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -113,6 +149,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -121,4 +158,24 @@ footer a:hover {
 
 h1 {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
