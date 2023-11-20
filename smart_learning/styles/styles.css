@@ -360,7 +360,7 @@ body {
     font-size: 20px ;
 }
 
-#laptop:hover, #setup:hover, #schdeule:hover {
+#laptop:hover, #setup:hover, #schedule:hover {
     opacity: .6;
     transform: scale(1.1);
 }
