@@ -364,3 +364,24 @@ body {
     opacity: .6;
     transform: scale(1.1);
 }
+
+#main_courses {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.onlinepath_background {
+    grid-area: 1/1/2/3;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+#first_course img {
+    width: 50px;
+}
+
+#first_course {
+    grid-area: 1/1/2/2;
+}
