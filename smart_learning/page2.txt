@@ -1,0 +1,59 @@
+<!--
+        <div id="tips_home">
+            <img id="future_img" src="images/future.jpg" alt="future">
+            <div id="title_tip">
+                <h1>TIPS</h1>
+            </div>
+            <div id="tip_one">
+                <p>Tip 1</p>
+            </div>
+            <div id="tip_two">
+                <p>Tip 2</p>
+            </div>
+            <div id="tip_three">
+                <p>Tip 3</p>
+            </div>
+        </div>
+-->
+
+.home_a {
+    grid-area: 1/2/2/3;
+    border: solid var(--primary-color);
+    z-index: 2;
+    align-self: center;
+    justify-self: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: var(--heading-font);
+}
+
+.tips_a {
+    grid-area: 2/3/3/4;
+    border: solid var(--primary-color);
+    z-index: 2;
+    align-self: center;
+    justify-self: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: var(--heading-font);
+}
+
+.courses_a {
+    grid-area: 1/4/2/5;
+    border: solid var(--primary-color);
+    z-index: 2;
+    align-self: center;
+    justify-self: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: var(--heading-font);
+}
