@@ -243,8 +243,20 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #74cae6;
     color: white;
-    height: 100px;
+    height: 100%;
     font-size: 25px;
+}
+
+.copy {
+    grid-column: 1/2;
+}
+
+.footsiteplan {
+    grid-column: 2/3;
+}
+
+.socialmedia {
+    grid-column: 3/4;
 }
 
 .socialmedia_img {
